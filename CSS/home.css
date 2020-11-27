@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table {
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+  border: 1px solid rgb(71, 70, 71);
+  border-radius: 5px;
+}
+
+.table th {
+  padding: 15px;
+  color: white;
+  background: rgb(97, 96, 96);
+}
+.table td {
+  padding: 15px;
+  border: 1px solid rgba(56, 74, 241, 0.082);
+}
+
+h1 {
+  text-align: center;
+  size: 30px;
+}
+h2 {
+  text-align: center;
+  size: 30px;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+.btn {
+  width: 5em;
+  height: 4em;
+}
+.NewEnq {
+  flex-direction: column;
+}
+.btnew {
+  background-color: green;
+  border-radius: 3px;
+  width: 80px;
+  margin-left: 1750px;
+  font-size: 1.2em;
+}
+.submitedit {
+  background-color: yellow;
+  border-radius: 5px;
+  width: 5em;
+  height: 5em;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  border: black 1px solid;
+  cursor: pointer;
+  border: black 2px solid;
+}
+.submitv1 {
+  background-color: rgb(142, 142, 145);
+  border-radius: 5px;
+  width: 5em;
+  height: 3em;
+  cursor: pointer;
+}
